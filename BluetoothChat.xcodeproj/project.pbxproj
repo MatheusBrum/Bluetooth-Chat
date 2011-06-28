@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BBF71013B9827D006034FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBF70F13B9827D006034FF /* UIKit.framework */; };
+		84BBF71213B9827D006034FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBF71113B9827D006034FF /* Foundation.framework */; };
+		84BBF71413B9827D006034FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBF71313B9827D006034FF /* CoreGraphics.framework */; };
+		84BBF71A13B9827D006034FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF71813B9827D006034FF /* InfoPlist.strings */; };
+		84BBF71C13B9827D006034FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBF71B13B9827D006034FF /* main.m */; };
+		84BBF72013B9827D006034FF /* BluetoothChatAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBF71F13B9827D006034FF /* BluetoothChatAppDelegate.m */; };
+		84BBF72313B9827D006034FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF72113B9827D006034FF /* MainStoryboard.storyboard */; };
+		84BBF72613B9827D006034FF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBF72513B9827D006034FF /* RootViewController.m */; };
+		84BBF73213B98397006034FF /* Celula.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BBF73113B98397006034FF /* Celula.m */; };
+		84BBF73413B985D2006034FF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBF73313B985D2006034FF /* GameKit.framework */; };
+		84BBF73713BA1710006034FF /* quadrado2s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF73513BA1710006034FF /* quadrado2s.png */; };
+		84BBF73813BA1710006034FF /* quadrado1s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF73613BA1710006034FF /* quadrado1s.png */; };
+		84BBF73B13BA190C006034FF /* Balloon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF73913BA190C006034FF /* Balloon_1.png */; };
+		84BBF73C13BA190C006034FF /* Balloon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84BBF73A13BA190C006034FF /* Balloon_2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84BBF70B13B9827D006034FF /* BluetoothChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BBF70F13B9827D006034FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84BBF71113B9827D006034FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84BBF71313B9827D006034FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84BBF71713B9827D006034FF /* BluetoothChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothChat-Info.plist"; sourceTree = "<group>"; };
+		84BBF71913B9827D006034FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84BBF71B13B9827D006034FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BBF71D13B9827D006034FF /* BluetoothChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothChat-Prefix.pch"; sourceTree = "<group>"; };
+		84BBF71E13B9827D006034FF /* BluetoothChatAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothChatAppDelegate.h; sourceTree = "<group>"; };
+		84BBF71F13B9827D006034FF /* BluetoothChatAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothChatAppDelegate.m; sourceTree = "<group>"; };
+		84BBF72213B9827D006034FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84BBF72413B9827D006034FF /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84BBF72513B9827D006034FF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84BBF73013B98397006034FF /* Celula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Celula.h; path = ../Celula.h; sourceTree = "<group>"; };
+		84BBF73113B98397006034FF /* Celula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Celula.m; path = ../Celula.m; sourceTree = "<group>"; };
+		84BBF73313B985D2006034FF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		84BBF73513BA1710006034FF /* quadrado2s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadrado2s.png; sourceTree = "<group>"; };
+		84BBF73613BA1710006034FF /* quadrado1s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadrado1s.png; sourceTree = "<group>"; };
+		84BBF73913BA190C006034FF /* Balloon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloon_1.png; sourceTree = "<group>"; };
+		84BBF73A13BA190C006034FF /* Balloon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Balloon_2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BBF70813B9827D006034FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BBF73413B985D2006034FF /* GameKit.framework in Frameworks */,
+				84BBF71013B9827D006034FF /* UIKit.framework in Frameworks */,
+				84BBF71213B9827D006034FF /* Foundation.framework in Frameworks */,
+				84BBF71413B9827D006034FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BBF70013B9827C006034FF = {
+			isa = PBXGroup;
+			children = (
+				84BBF71513B9827D006034FF /* BluetoothChat */,
+				84BBF70E13B9827D006034FF /* Frameworks */,
+				84BBF70C13B9827D006034FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BBF70C13B9827D006034FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BBF70B13B9827D006034FF /* BluetoothChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BBF70E13B9827D006034FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BBF73313B985D2006034FF /* GameKit.framework */,
+				84BBF70F13B9827D006034FF /* UIKit.framework */,
+				84BBF71113B9827D006034FF /* Foundation.framework */,
+				84BBF71313B9827D006034FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84BBF71513B9827D006034FF /* BluetoothChat */ = {
+			isa = PBXGroup;
+			children = (
+				84BBF73913BA190C006034FF /* Balloon_1.png */,
+				84BBF73A13BA190C006034FF /* Balloon_2.png */,
+				84BBF71E13B9827D006034FF /* BluetoothChatAppDelegate.h */,
+				84BBF71F13B9827D006034FF /* BluetoothChatAppDelegate.m */,
+				84BBF72113B9827D006034FF /* MainStoryboard.storyboard */,
+				84BBF72413B9827D006034FF /* RootViewController.h */,
+				84BBF72513B9827D006034FF /* RootViewController.m */,
+				84BBF73013B98397006034FF /* Celula.h */,
+				84BBF73113B98397006034FF /* Celula.m */,
+				84BBF73513BA1710006034FF /* quadrado2s.png */,
+				84BBF73613BA1710006034FF /* quadrado1s.png */,
+				84BBF71613B9827D006034FF /* Supporting Files */,
+			);
+			path = BluetoothChat;
+			sourceTree = "<group>";
+		};
+		84BBF71613B9827D006034FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BBF71713B9827D006034FF /* BluetoothChat-Info.plist */,
+				84BBF71813B9827D006034FF /* InfoPlist.strings */,
+				84BBF71B13B9827D006034FF /* main.m */,
+				84BBF71D13B9827D006034FF /* BluetoothChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BBF70A13B9827D006034FF /* BluetoothChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BBF72D13B9827D006034FF /* Build configuration list for PBXNativeTarget "BluetoothChat" */;
+			buildPhases = (
+				84BBF70713B9827D006034FF /* Sources */,
+				84BBF70813B9827D006034FF /* Frameworks */,
+				84BBF70913B9827D006034FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothChat;
+			productName = BluetoothChat;
+			productReference = 84BBF70B13B9827D006034FF /* BluetoothChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BBF70213B9827C006034FF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84BBF70513B9827C006034FF /* Build configuration list for PBXProject "BluetoothChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84BBF70013B9827C006034FF;
+			productRefGroup = 84BBF70C13B9827D006034FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BBF70A13B9827D006034FF /* BluetoothChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BBF70913B9827D006034FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BBF71A13B9827D006034FF /* InfoPlist.strings in Resources */,
+				84BBF72313B9827D006034FF /* MainStoryboard.storyboard in Resources */,
+				84BBF73713BA1710006034FF /* quadrado2s.png in Resources */,
+				84BBF73813BA1710006034FF /* quadrado1s.png in Resources */,
+				84BBF73B13BA190C006034FF /* Balloon_1.png in Resources */,
+				84BBF73C13BA190C006034FF /* Balloon_2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BBF70713B9827D006034FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BBF71C13B9827D006034FF /* main.m in Sources */,
+				84BBF72013B9827D006034FF /* BluetoothChatAppDelegate.m in Sources */,
+				84BBF72613B9827D006034FF /* RootViewController.m in Sources */,
+				84BBF73213B98397006034FF /* Celula.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84BBF71813B9827D006034FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BBF71913B9827D006034FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84BBF72113B9827D006034FF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BBF72213B9827D006034FF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BBF72B13B9827D006034FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84BBF72C13B9827D006034FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BBF72E13B9827D006034FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothChat/BluetoothChat-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothChat/BluetoothChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84BBF72F13B9827D006034FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothChat/BluetoothChat-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothChat/BluetoothChat-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BBF70513B9827C006034FF /* Build configuration list for PBXProject "BluetoothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BBF72B13B9827D006034FF /* Debug */,
+				84BBF72C13B9827D006034FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BBF72D13B9827D006034FF /* Build configuration list for PBXNativeTarget "BluetoothChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BBF72E13B9827D006034FF /* Debug */,
+				84BBF72F13B9827D006034FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BBF70213B9827C006034FF /* Project object */;
+}
